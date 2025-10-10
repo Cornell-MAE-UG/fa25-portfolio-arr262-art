@@ -19,3 +19,6 @@ After drawing free body diagrams and performing the necessary calculations, I en
 
 I eventually settled on a design which had d > L and gave a maximum final weight of 51.33 kN and a maximum final height of 0.32m, for a total height change of 0.2m. 
 
+![Final Design]({{ "/assets/images/statics portfolio finaln_1.jpeg" | relative_url }}){: .inline-image-r}
+
+
