@@ -3,7 +3,7 @@ layout: project
 title: Actuator and Bar
 description: Homework problem for ENGRD 2020, Statics and Mechanics of Materials
 technologies: 
-image: /assets/images/actuator_final.jpeg
+image: "/assets/images/actuator_final.jpg"
 ---
 
 Our assignment was to use a bar of any length, 3 pinned supports (two of which were grounded), and a linear actuator from this catalog (https://www.tolomatic.com/wp-content/uploads/2022/05/2700-4000_29_IMA_cat.pdf) to lift the maximum amount of weight the maximum possible height. We were given a 2D design space 150 cm wide and 50 cm tall and told to treat all bars (actuator included) as rigid.

@@ -3,10 +3,10 @@ layout: project
 title: Heat Exchanger
 description: Homework problem for ENGRD 2210, Thermodynamics
 technologies: Heat exchanger
-image: /assets/images/heat_exchanger.jpeg
+image: "/assets/images/heat_exchanger.jpg"
 ---
 
-![Our Setup]({{ "/assets/images/heat_exchanger.jpeg" | relative_url }})
+![Our Setup]({{ "/assets/images/heat_exchanger.jpg" | relative_url }})
 
 # Device Overview
 The device I set out to analyze (with a group) was a heat exchanger and two pumps. The pumps drove hot and cold water at the same flow rate through the heat exchanger. When the liquids were output into the empty bins, their states (most notably their temperatures) were altered. 
