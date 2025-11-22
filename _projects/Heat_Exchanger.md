@@ -25,7 +25,7 @@ $$\dot{m}_{tot} = \sum{\dot{m}_{in}} - \sum{\dot{m}_{out}}$$
 
 We can approximate the pumps as operating at steady state because they didn't seem to clog at all or be underfilled for most of the operation, reducing the mass balance to
 
-$$0 = \sum{\dot{m}_{in}} - \sum{\dot{m}_{tot}}$$
+$$0 = \sum{\dot{m}_{in}} - \sum{\dot{m}_{out}}$$
 
 The general energy balance equation is
 
@@ -33,7 +33,7 @@ $$\dot{E} = \dot{Q} - \dot{W} + \sum{\dot{m}_{in}(h_{in} + \frac{(v_{in})^2}{2} 
 
 As stated above, we can approximate the pumps as operating in steady state. In addition, we can approximate them as adiabatic and ignore changes in potential and kinetic energy. Finally, there is only one inlet and one outlet. As a result, the balance becomes
 
-$$0 = -\dot{W} + \dot{m}(h_{in} - h_{out})$$
+$$0 = - \dot{W} + \dot{m}(h_{in} - h_{out})$$
 
 Overall, the pumps only serve to push the fluids through the system. Their state isn't altered significantly by this part of the system.
 
