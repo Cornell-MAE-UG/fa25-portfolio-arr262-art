@@ -21,19 +21,19 @@ The system as a whole is not really trying to maximize either work or heat trans
 ## Pumps
 The mass balance equation for control volumes is as follows
 
-$$\dot{m}_(tot) = \sum{\dot{m}_(in)} - \sum{\dot{m}_(out)}$$
+$$\dot{m}_{tot} = \sum{\dot{m}_{in}} - \sum{\dot{m}_{out}}$$
 
 We can approximate the pumps as operating at steady state because they didn't seem to clog at all or be underfilled for most of the operation, reducing the mass balance to
 
-$$0 = \sum{\dot{m}_(in)} - \sum{\dot{m}_(tot)}$$
+$$0 = \sum{\dot{m}_{in}} - \sum{\dot{m}_{tot}}$$
 
 The general energy balance equation is
 
-$$\dot{E} = \dot{Q} - \dot{W} + \sum{\dot{m}_(in)(h_in + \frac{(v_(in))^2}{2} + gz_in)} + \sum{\dot{m}_(out)(h_(out) + \frac{(v_(out))^2}{2} + gz_(out))}$$
+$$\dot{E} = \dot{Q} - \dot{W} + \sum{\dot{m}_{in}(h_{in} + \frac{(v_{in})^2}{2} + gz_{in})} + \sum{\dot{m}_{out}(h_{out} + \frac{(v_{out})^2}{2} + gz_{out})}$$
 
 As stated above, we can approximate the pumps as operating in steady state. In addition, we can approximate them as adiabatic and ignore changes in potential and kinetic energy. Finally, there is only one inlet and one outlet. As a result, the balance becomes
 
-$$0 = -\dot{W} + \dot{m}(h_(in) - h_(out))$$
+$$0 = -\dot{W} + \dot{m}(h_{in} - h_{out})$$
 
 Overall, the pumps only serve to push the fluids through the system. Their state isn't altered significantly by this part of the system.
 
@@ -41,15 +41,15 @@ Overall, the pumps only serve to push the fluids through the system. Their state
 
 However, the heat exchanger caused a significant change in the state of the substances. Similarly to the pumps, we can approximate its operation as steady state, giving the mass balance equation
 
-$$0 = \dot{m}_(in) - \dot{m}_(out)$$
+$$0 = \dot{m}_{in} - \dot{m}_{out}$$
 
 For the energy balance equation, not only can we approximate the heat exchanger as steady state adiabatic with negligible changes in potential and kinetic energy, but it also does not take any work to operate. Thus we get
 
-$$0 = \sum{\dot{m}_(in)(h_(in))} - \sum{\dot{m}_(out)(h_(out))}$$
+$$0 = \sum{\dot{m}_{in}(h_{in})} - \sum{\dot{m}_{out}(h_{out})}$$
 
 An important consideration is that the heat exchanger was not actually operating adiabatically. We observed during the test run that the device was hot to the touch, meaning that it was losing heat to the environment. Thus, if more accuracy is desired, a better equation to use would be
 
-$$0 = \dot{Q} + \sum{\dot{m}_(in)(h_(in))} - \sum{\dot{m}_(out)(h_(out))}$$
+$$0 = \dot{Q} + \sum{\dot{m}_{in}(h_{in})} - \sum{\dot{m}_{out}(h_{out})}$$
 
 # Change in device operation
 The change in operation we chose to implement was switching the flow from counterflow to parallel flow. In other words, the two flows switched from being directed against each other within the heat exchanger to being in the same direction. The change we observed was fairly drastic.
