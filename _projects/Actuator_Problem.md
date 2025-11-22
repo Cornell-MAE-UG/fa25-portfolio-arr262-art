@@ -11,6 +11,7 @@ The device I set out to analyze (with a group) was a heat exchanger and two pump
 
 # System Diagram
 
+![System Diagram]({{ "/assets/images/he_diagram.drawio.png" | relative_url }})
 
 # Descriptive Equations
 The system as a whole is not really trying to maximize either work or heat transfer, so I will only be considering the mass and energy balance equations as the entropy balance will not reveal anything significant about the system.
