@@ -3,7 +3,7 @@ layout: project
 title: Heat Exchanger
 description: Homework problem for ENGRD 2210, Thermodynamics
 technologies: Heat exchanger
-image: /assets/images/actuator_final.jpeg
+image: /assets/images/heat_exchanger.jpeg
 ---
 
 
