@@ -36,11 +36,11 @@ I was able to derive the maximum deflection of the beam. The total force on the 
 
 After the calculations shown, I arrived at a maximum deflection of 
 
-$$ y_{max} = \frac{F}{6EI}(\frac{sqrt{3}}{3}L)^3 - \frac{FL^2}{6EI}(\frac{sqrt{3}}{3}L) $$
+$$ y_{max} = \frac{F}{6EI}(\frac{\sqrt{3}}{3}L)^3 - \frac{FL^2}{6EI}(\frac{\sqrt{3}}{3}L) $$
 
 F is the net force of 7.61 kN, E is the Young's Modulus of the material, I is the second moment of area of the cross section, and L is the beam length of 0.6m. Using this, I derived an expression for EI.
 
-$$ EI = \frac{2sqrt{3}FL^2}{9*0.02*6} = 8787.27 Nm^2 $$
+$$ EI = \frac{2\sqrt{3}FL^2}{9*0.02*6} = 8787.27 Nm^2 $$
 
 I then went back to a spreadsheet to determine a good set for E and I. Surprisingly, the beam doesn't need to be super strong to achieve the above strength metric. Thus, I chose a very economical design, selecting the light Western White Pine wood as my material and the S75x8.5 beam standard as my cross section. This gave me an EI well within the necessary limit and a total weight of 0.25 kg. 
 
