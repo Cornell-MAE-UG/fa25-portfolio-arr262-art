@@ -2,7 +2,7 @@
 layout: project
 title: Project Pitch for SLF
 description: Assignment for Intro to Design 2250
-technologies: Heat exchanger
+technologies: Markdown
 image: "/assets/images/slf.jpg"
 ---
 
